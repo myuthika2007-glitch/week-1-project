@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of Yuthika M, B.Tech AI & Data Science student." />
+  <title>Yuthika M | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#home" class="logo">Yuthika M</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-label="Toggle menu">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <img src="images/photo.jpeg" alt="Photo of Yuthika M" class="profile-photo" />
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Yuthika M</h1>
+          <p class="tagline">B.Tech student in AI &amp; Data Science building with data, machine learning and the web.</p>
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="about-grid">
+          <p>
+            I'm a B.Tech student specialising in Artificial Intelligence and Data Science.
+            I enjoy turning raw data into insights and ideas into working web applications.
+            My work spans coursework, internship projects and independent development.
+          </p>
+          <div>
+            <h3>Skills</h3>
+            <ul class="skills">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>Python</li>
+              <li>Data Analytics</li>
+              <li>Machine Learning</li>
+              <li>Excel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
+          <article class="card">
+            <h3>B.Tech: Artificial Intelligence &amp; Data Science</h3>
+            <p class="meta">Sri Krishna College Of Engineering And Technology&middot; 2025 &ndash; Present</p>
+            <p>Coursework in programming, data analytics, machine learning and web development.</p>
+          </article>
+          <article class="card">
+            <h3>Higher Secondary Education</h3>
+            <p class="meta">SRV Hi-Tech Matric Higher Secondary School&middot; 2023 &ndash; 2025</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="card">
+            <h3>Dr.Cobra E-Commerce Platform</h3>
+            <p>Full-stack e-commerce site for a cybersecurity and IoT brand, with a customer storefront and an admin portal for managing products and orders.</p>
+            <p class="tags">React &middot; Node.js &middot; Express &middot; MongoDB</p>
+          </article>
+          <article class="card">
+            <h3>Customer Segmentation Analysis</h3>
+            <p>RFM analysis and K-Means clustering on the Online Retail dataset, with visualisations of each customer segment.</p>
+            <p class="tags">Python &middot; Google Colab &middot; K-Means</p>
+          </article>
+          <article class="card">
+            <h3>Air Passengers Forecasting</h3>
+            <p>Linear Regression model that forecasts air passenger numbers 24 months ahead.</p>
+            <p class="tags">Python &middot; Linear Regression</p>
+          </article>
+          <article class="card">
+            <h3>Sales &amp; Revenue Dashboard</h3>
+            <p>Interactive Excel dashboard built during an internship, using Pivot Tables, slicers, KPI boxes and charts.</p>
+            <p class="tags">Excel &middot; Pivot Tables &middot; Dashboards</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="center">Interested in working together or just want to say hi? Send me a message.</p>
+        <form class="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p class="links center">
+          <a href="mailto:myuthika2007@gmail.com">Email</a> &middot;
+          <a href="https://github.com/myuthika2007-glitch" target="_blank" rel="noopener">GitHub</a> &middot;
+          <a href="https://www.linkedin.com/in/yuthika-m-190016381?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Yuthika M. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

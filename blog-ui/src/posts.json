@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "category": "Tech",
+    "excerpt": "A short intro to components and props."
+  },
+  {
+    "id": 2,
+    "title": "Best Street Food in Bangkok",
+    "category": "Food",
+    "excerpt": "Where to eat and what to order."
+  },
+  {
+    "id": 3,
+    "title": "A Weekend in the Mountains",
+    "category": "Travel",
+    "excerpt": "Packing tips and trail ideas."
+  },
+  {
+    "id": 4,
+    "title": "Learn JavaScript Faster",
+    "category": "Tech",
+    "excerpt": "Simple habits that help you improve every day."
+  },
+  {
+    "id": 5,
+    "title": "Easy Homemade Pasta",
+    "category": "Food",
+    "excerpt": "A beginner recipe with only four ingredients."
+  },
+  {
+    "id": 6,
+    "title": "Budget Travel Tips",
+    "category": "Travel",
+    "excerpt": "How to see more places while spending less."
+  }
+]
